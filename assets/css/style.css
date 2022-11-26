@@ -47,7 +47,8 @@ header p {
     font-size: 16px;
 }
 
-.hero {
+/* removed the class and changed it to semantic HTML to reflect the changes made in HTML  */
+figure {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -99,6 +100,7 @@ aside img {
     max-width: 150px;
 }
 
+/* condensed the below to shorten css */
 .search-engine-optimization,
 .online-reputation-management,
 .social-media-marketing {
@@ -110,14 +112,14 @@ aside img {
     color: #ffffff;
 }
 
-/* condensed the below */
+/* condensed the below to shorten css */
 .search-engine-optimization img,
 .online-reputation-management img,
 .social-media-marketing img {
     max-height: 200px;
 }
 
-/* condensed the below  */
+/* condensed the below to shorten css */
 .search-engine-optimization h2,
 .online-reputation-management h2,
 .social-media-marketing h2 {

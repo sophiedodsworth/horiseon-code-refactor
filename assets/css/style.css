@@ -44,9 +44,13 @@ header nav ul li {
     margin-left: 25px;
 }
 
-header a {
+a {
     color: #ffffff;
     text-decoration: none;
+}
+
+p {
+    font-size: 16px;
 }
 
 /* removed the class and changed it to semantic HTML to reflect the changes made in HTML  */
@@ -143,9 +147,4 @@ aside img {
 
 .footer h2 {
     font-size: 20px;
-}
-
-/* changed from just p to footer p and moved further down CSS so it's in order */
-footer p {
-    font-size: 16px;
 }

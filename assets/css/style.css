@@ -24,6 +24,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
+/* changed from div to nav  */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,8 +33,13 @@ header nav {
     font-size: 20px;
 }
 
-header ul {
+/* changed from div to nav  */
+header nav ul {
     list-style-type: none;
+}
+
+/* changed from div to nav  */
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -41,10 +47,6 @@ header ul {
 header a {
     color: #ffffff;
     text-decoration: none;
-}
-
-header p {
-    font-size: 16px;
 }
 
 /* removed the class and changed it to semantic HTML to reflect the changes made in HTML  */
@@ -141,4 +143,9 @@ aside img {
 
 .footer h2 {
     font-size: 20px;
+}
+
+/* changed from just p to footer p and moved further down CSS so it's in order */
+footer p {
+    font-size: 16px;
 }
